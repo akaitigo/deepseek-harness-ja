@@ -1,0 +1,30 @@
+version: 2
+updates:
+  # Propose updates only: no automatic merging or unattended compatibility bumps.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 2
+    groups:
+      npm-version-updates:
+        applies-to: version-updates
+        patterns:
+          - "*"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 1
+    groups:
+      actions-version-updates:
+        applies-to: version-updates
+        patterns:
+          - "*"
