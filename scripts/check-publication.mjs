@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const allow = new Set([
-  '.gitignore', '.github/workflows/ci.yml', 'CHANGELOG.md', 'README.md', 'LICENSE',
+  '.gitignore', '.github/workflows/ci.yml', '.github/dependabot.yml', 'CHANGELOG.md', 'README.md', 'LICENSE',
   'THIRD_PARTY_NOTICES.md', 'package.json', 'package-lock.json', 'cordis.patch.yml',
   'docs/GETTING_STARTED.ja.md', 'locale/ja.json', 'source/en.json', 'source/provenance.json',
   'licenses/DeepSeek-Harness-MIT.txt', 'licenses/Codex-Subscription-MIT.txt',

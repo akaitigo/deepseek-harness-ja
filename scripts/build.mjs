@@ -10,6 +10,10 @@ const pkg = read('package.json');
 const english = read('source/en.json');
 const japanese = read('locale/ja.json');
 const provenance = read('source/provenance.json');
+// A dependency-update PR must not silently change the supported DSH version.
+const runtimePackage = '@deepseek-ai/dsh-client-locale';
+assert.equal(pkg.devDependencies[runtimePackage], provenance.harnessVersion, 'Testing runtime update requires a DSH compatibility review');
+assert.equal(pkg.peerDependencies[runtimePackage], provenance.harnessVersion, 'Supported runtime must match catalog provenance');
 const placeholders = value => [...value.matchAll(/\{(\w+)\}/g)].map(m => m[1]).sort();
 const sorted = Object.fromEntries(Object.keys(japanese).sort().map(namespace => [namespace, japanese[namespace]]));
 assert.deepEqual(Object.keys(japanese).sort(), Object.keys(english).sort(), 'Namespace parity');
