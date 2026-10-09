@@ -1,0 +1,5 @@
+# Adds the language pack without changing the user's saved language preference.
+# Choose 日本語 in Settings → General → Language after installing.
+- insert:
+    - id: locale-ja
+      name: 'dsh-locale-ja'

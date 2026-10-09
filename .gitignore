@@ -1,0 +1,31 @@
+# Dependencies, package-manager state and temporary build/test data
+node_modules/
+.cache/
+coverage/
+artifacts/
+*.tgz
+npm-debug.log*
+.DS_Store
+
+# Never publish machine configuration, accounts, secrets, logs or history
+.env
+.env.*
+.npmrc
+.netrc
+*.pem
+*.key
+*.lock.private
+.dsh/
+profiles/
+localization-backups/
+harness-inspection/
+**/install-report.json
+**/desktop-config*.yml
+**/credentials*.json
+**/auth*.json
+**/session*.jsonl*
+**/gui-*.png
+
+# Local-only maintenance helpers (not part of the portable project)
+scripts/install.mjs
+scripts/verify-profile.mjs

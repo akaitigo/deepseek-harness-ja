@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "harnessVersion": "0.2.0-rc.2",
+  "harnessBuildCommit": "5e9e301dd9dc8923b2762f76dacfc5751f6ca851",
+  "codexSubscriptionVersion": "2.5.9",
+  "upstreams": {
+    "harness": {
+      "npm": "https://www.npmjs.com/package/@deepseek-ai/dsh-client-locale",
+      "licenseFile": "licenses/DeepSeek-Harness-MIT.txt",
+      "licenseSha256": "ebb4f09972aee8608be255debaf78451a68e95c290f55c240dec2ecfa16ea6be"
+    },
+    "codexSubscription": {
+      "repository": "https://github.com/WSL043/dsh-codex-subscription",
+      "tag": "v2.5.9",
+      "licenseFile": "licenses/Codex-Subscription-MIT.txt"
+    }
+  },
+  "namespaces": {
+    "common": {
+      "package": "@deepseek-ai/dsh-client-locale",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 41,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.locale": {
+      "package": "@deepseek-ai/dsh-client-locale",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 1,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.agentPreset": {
+      "package": "@deepseek-ai/dsh-client-ui-agent-preset",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 41,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "approval": {
+      "package": "@deepseek-ai/dsh-client-ui-approval",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 5,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "chat": {
+      "package": "@deepseek-ai/dsh-client-ui-chat",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 186,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "command": {
+      "package": "@deepseek-ai/dsh-client-ui-commands",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 28,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "conversation": {
+      "package": "@deepseek-ai/dsh-client-ui-conversation",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 369,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "cordis": {
+      "package": "@deepseek-ai/dsh-client-ui-cordis",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 51,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "deliverables": {
+      "package": "@deepseek-ai/dsh-client-ui-deliverables",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 60,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "goal": {
+      "package": "@deepseek-ai/dsh-client-ui-goal",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 12,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "slash.menu": {
+      "package": "@deepseek-ai/dsh-client-ui-input-trigger",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 9,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "job": {
+      "package": "@deepseek-ai/dsh-client-ui-jobs",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 39,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "shortcuts.layout": {
+      "package": "@deepseek-ai/dsh-client-ui-layout",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 1,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "feedback": {
+      "package": "@deepseek-ai/dsh-client-ui-message-feedback",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 20,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "model": {
+      "package": "@deepseek-ai/dsh-client-ui-model-selection",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 23,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "open-in-app": {
+      "package": "@deepseek-ai/dsh-client-ui-open-in-app",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 45,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "permission.access": {
+      "package": "@deepseek-ai/dsh-client-ui-permission-presets",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 17,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.permission": {
+      "package": "@deepseek-ai/dsh-client-ui-permission-presets",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 12,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "plan": {
+      "package": "@deepseek-ai/dsh-client-ui-plan",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 17,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "pluginManager": {
+      "package": "@deepseek-ai/dsh-client-ui-plugin-manager",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 189,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "reference": {
+      "package": "@deepseek-ai/dsh-client-ui-reference",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 11,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "schedule.catalog": {
+      "package": "@deepseek-ai/dsh-client-ui-schedule",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 70,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "schedule.manager": {
+      "package": "@deepseek-ai/dsh-client-ui-schedule",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 187,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.account": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-account",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 93,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.agentLoop": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-agent-loop",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 12,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-general",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 34,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.models": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-models",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 113,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.pluginInventory": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-plugin-inventory",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 40,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.plugins": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-plugins",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 5,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.sessionLog": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-session-log",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 4,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.shell": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-shell",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 14,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.subagent": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-subagent",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 35,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.webSearch": {
+      "package": "@deepseek-ai/dsh-client-ui-settings-web-search",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 18,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "shortcuts": {
+      "package": "@deepseek-ai/dsh-client-ui-shortcuts",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 56,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebar": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 5,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarBrowser": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-browser",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 26,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "documentMarkdown": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-documentpreview",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 4,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "documentHtml": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-documentpreview",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 4,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarImage": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-documentpreview",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 11,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarPdf": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-documentpreview",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 15,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarCodePreview": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-documentpreview",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 3,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarOffice": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-documentpreview",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 15,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarExcel": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-documentpreview",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 15,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarDocumentPreview": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-documentpreview",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 22,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarFiles": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-files",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 17,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarRight": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-right",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 34,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "sidebarTerminal": {
+      "package": "@deepseek-ai/dsh-client-ui-sidebar-terminal",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 28,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "skill": {
+      "package": "@deepseek-ai/dsh-client-ui-skill",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 8,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "subagent": {
+      "package": "@deepseek-ai/dsh-client-ui-subagent",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 39,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.theme": {
+      "package": "@deepseek-ai/dsh-client-ui-theme",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 9,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "trajectory": {
+      "package": "@deepseek-ai/dsh-client-ui-trajectory",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 192,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "question": {
+      "package": "@deepseek-ai/dsh-client-ui-user-questions",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 31,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "workflowRun": {
+      "package": "@deepseek-ai/dsh-client-ui-workflow-run",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 18,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "workspace": {
+      "package": "@deepseek-ai/dsh-client-ui-workspace",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 112,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "agent-team": {
+      "package": "@deepseek-ai/dsh-experimental-client-ui-agent-team",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 25,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "voice-input": {
+      "package": "@deepseek-ai/dsh-experimental-client-ui-voice-input",
+      "version": "0.2.0-rc.2",
+      "dictionary": "lib/client.js",
+      "keys": 101,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 DeepSeek"
+    },
+    "settings.codexSubscription": {
+      "package": "dsh-codex-subscription",
+      "version": "2.5.9",
+      "dictionary": "lib/client.js",
+      "keys": 585,
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 WSL043"
+    }
+  }
+}
